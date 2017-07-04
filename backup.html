@@ -1,0 +1,329 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link href="/TEMP-FONTS/stylesheet.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/foundation-grid.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <style>
+        /*
+         http://meyerweb.com/eric/tools/css/reset/
+         v2.0 | 20110126
+         License: none (public domain)
+         */
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed,
+        figure, figcaption, footer, header, hgroup,
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure,
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+
+        body {
+            line-height: 1;
+        }
+
+        ol, ul {
+            list-style: none;
+        }
+
+        blockquote, q {
+            quotes: none;
+        }
+
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content: '';
+            content: none;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        /* common styles */
+        body {
+            background: #f1f1f1;
+            color: #000;
+        }
+
+        .page {
+            background: #fff;
+            width: 920px;
+            margin: 0 auto;
+            padding: 20px 20px 0 20px;
+            overflow: hidden;
+        }
+
+        .font-container {
+            overflow-x: auto;
+            overflow-y: hidden;
+            margin-bottom: 40px;
+            line-height: 1.3;
+            white-space: nowrap;
+            padding-bottom: 5px;
+        }
+
+        h1 {
+            position: relative;
+            background: #444;
+            font-size: 32px;
+            color: #fff;
+            padding: 10px 20px;
+            margin: 0 -20px 12px -20px;
+        }
+
+        .letters {
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+
+        .s10:before {
+            content: '10px';
+        }
+
+        .s11:before {
+            content: '11px';
+        }
+
+        .s12:before {
+            content: '12px';
+        }
+
+        .s14:before {
+            content: '14px';
+        }
+
+        .s18:before {
+            content: '18px';
+        }
+
+        .s24:before {
+            content: '24px';
+        }
+
+        .s30:before {
+            content: '30px';
+        }
+
+        .s36:before {
+            content: '36px';
+        }
+
+        .s48:before {
+            content: '48px';
+        }
+
+        .s60:before {
+            content: '60px';
+        }
+
+        .s72:before {
+            content: '72px';
+        }
+
+        .s10:before, .s11:before, .s12:before, .s14:before,
+        .s18:before, .s24:before, .s30:before, .s36:before,
+        .s48:before, .s60:before, .s72:before {
+            font-family: Arial, sans-serif;
+            font-size: 10px;
+            font-weight: normal;
+            font-style: normal;
+            color: #999;
+            padding-right: 6px;
+        }
+
+        pre {
+            display: block;
+            position: relative;
+            padding: 9px;
+            margin: 0 0 10px;
+            font-family: Monaco, Menlo, Consolas, "Courier New", monospace !important;
+            font-size: 13px;
+            line-height: 1.428571429;
+            color: #333;
+            font-weight: normal !important;
+            font-style: normal !important;
+            background-color: #f5f5f5;
+            border: 1px solid #ccc;
+            overflow-x: auto;
+            border-radius: 4px;
+        }
+
+        pre:after {
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+            content: 'Usage';
+            line-height: 1;
+            padding: 5px 8px;
+            font-size: 12px;
+            color: #767676;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-right: none;
+            border-top: none;
+            border-radius: 0 4px 0 4px;
+            z-index: 10;
+        }
+
+        /* responsive */
+        @media (max-width: 959px) {
+            .page {
+                width: auto;
+                margin: 0;
+            }
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="page">
+
+</div>
+<div class="demo" style="font-family: 'GT Walsheim Pro'; font-weight: 500; font-style: normal;">
+    <h1>GT Walsheim Pro Medium</h1>
+		<pre>.your-style {
+    font-family: 'GT Walsheim Pro';
+    font-weight: 500;
+    font-style: normal;
+}</pre>
+    <div class="font-container">
+        <p class="letters">
+            abcdefghijklmnopqrstuvwxyz <br/>
+            ABCDEFGHIJKLMNOPQRSTUVWXYZ <br/> 0123456789.:,;()*!?'@#<>$%&^+-=~
+        </p>
+        <p class="s10" style="font-size: 10px;">The quick brown fox jumps over the lazy dog.</p>
+        <p class="s11" style="font-size: 11px;">The quick brown fox jumps over the lazy dog.</p>
+        <p class="s12" style="font-size: 12px;">The quick brown fox jumps over the lazy dog.</p>
+        <p class="s14" style="font-size: 14px;">The quick brown fox jumps over the lazy dog.</p>
+        <p class="s18" style="font-size: 18px;">The quick brown fox jumps over the lazy dog.</p>
+        <p class="s24" style="font-size: 24px;">The quick brown fox jumps over the lazy dog.</p>
+        <p class="s30" style="font-size: 30px;">The quick brown fox jumps over the lazy dog.</p>
+        <p class="s36" style="font-size: 36px;">The quick brown fox jumps over the lazy dog.</p>
+        <p class="s48" style="font-size: 48px;">The quick brown fox jumps over the lazy dog.</p>
+        <p class="s60" style="font-size: 60px;">The quick brown fox jumps over the lazy dog.</p>
+        <p class="s72" style="font-size: 72px;">The quick brown fox jumps over the lazy dog.</p>
+    </div>
+</div>
+
+<!-- main navigation row -->
+<!--<div class="row" style="height: 110px; background-color: #FF0000;">-->
+<!--<div class="medium-24 p-24 columns">-->
+<!--<div class="logo"><a href="/"><img alt="self-Logo" src="img/RR_Wortmarke.svg"></a></div>-->
+<!--<div>MENU ITEM - MENU ITEM - MENU ITEM - MENU ITEM</div>-->
+<!--</div>-->
+<!--</div>-->
+<!-- /main navigation row -->
+
+
+<!-- homepage hero orbit slider -->
+
+<!--<div class="row collapse">-->
+<!--<div class="medium-24 columns">-->
+<!--<div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-use-m-u-i="false" data-auto-play="false">-->
+<!--<div class="orbit-container">-->
+<!--<button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#139;</button>-->
+<!--&lt;!&ndash;&#9664;&#xFE0E;&ndash;&gt;-->
+<!--<button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#155;</button>-->
+<!--&lt;!&ndash;&#9654;&#xFE0E;&ndash;&gt;-->
+<!--<div class="is-active orbit-slide">-->
+<!--<img class="orbit-image" src="http://via.placeholder.com/1032x580/888/000/" alt="Space">-->
+<!--<figcaption class="orbit-caption">Encapsulating 1</figcaption>-->
+<!--</div>-->
+<!--<div class="orbit-slide">-->
+<!--<img class="orbit-image" src="http://via.placeholder.com/1032x580/333/fff/" alt="Space">-->
+<!--<figcaption class="orbit-caption">Encapsulating 2</figcaption>-->
+<!--</div>-->
+<!--<div class="orbit-slide">-->
+<!--<img class="orbit-image" src="http://via.placeholder.com/1032x580/888/000/" alt="Space">-->
+<!--<figcaption class="orbit-caption">Encapsulating 3</figcaption>-->
+<!--</div>-->
+<!--<div class="orbit-slide">-->
+<!--<img class="orbit-image" src="http://via.placeholder.com/1032x580/333/fff/" alt="Space">-->
+<!--<figcaption class="orbit-caption">Encapsulating 4</figcaption>-->
+<!--</div>-->
+<!--</div>-->
+<!--<nav class="orbit-bullets">-->
+<!--<button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>-->
+<!--<button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>-->
+<!--<button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>-->
+<!--<button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>-->
+<!--</nav>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!-- /homepage hero orbit slider -->
+
+
+
+<!-- homepage small teaser 50/50-->
+<div class="row">
+    <div class="medium-6 columns p-24-l">
+        <img src="http://via.placeholder.com/480x270/888/000/" alt="">
+        <div >
+            <a class="home-teaser-50-50-header" href="#">Die unglaubliche Story des Bernd Hornetz</a>
+            Die unglaubliche Story des Bernd Hornetz
+        </div>
+    </div>
+    <div class="medium-6 columns p-24-r">
+        <img src="http://via.placeholder.com/480x270/888/000/" alt="">
+        <div>
+            Die neuesten Beiträge
+            Lorem Ipsum
+        </div>
+    </div>
+</div>
+<!-- /homepage small teaser 50/50-->
+
+<!-- homepage full width teaser 400px height-->
+<div class="row collapse">
+    <div class="medium-12 columns">
+        <img src="http://via.placeholder.com/1032x400/888/000/" alt="">
+    </div>
+</div>
+<!-- /homepage full width teaser 400px height -->
+
+
+
+<!-- homepage full width teaser 580px height-->
+<div class="row collapse">
+    <div class="medium-12 columns">
+        <img src="http://via.placeholder.com/1032x580/aaa/000/" alt="">
+    </div>
+</div>
+<!-- /homepage full width teaser 580px height -->
+
+
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/what-input.js"></script>
+<script src="js/vendor/foundation.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

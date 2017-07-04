@@ -1,0 +1,1068 @@
+/* Small only */
+@media screen and (max-width: 39.9375em) {}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* Large and up */
+@media screen and (min-width: 64em) {}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Medium.eot');
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Medium.eot?#iefix') format('embedded-opentype'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Medium.woff') format('woff'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Regular.eot');
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Regular.woff') format('woff'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-BoldOblique.eot');
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-BoldOblique.eot?#iefix') format('embedded-opentype'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-BoldOblique.woff') format('woff'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-BoldOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Bold.eot');
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Bold.woff') format('woff'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MarkW01';
+    src: url('http://dev.qmedia.de/bva-fonts/MarkW01-Medium.eot');
+    src: url('http://dev.qmedia.de/bva-fonts/MarkW01-Medium.eot?#iefix') format('embedded-opentype'),
+    url('http://dev.qmedia.de/bva-fonts/MarkW01-Medium.woff') format('woff'),
+    url('http://dev.qmedia.de/bva-fonts/MarkW01-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-RegularOblique.eot');
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-RegularOblique.eot?#iefix') format('embedded-opentype'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-RegularOblique.woff') format('woff'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-RegularOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-MediumOblique.eot');
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-MediumOblique.eot?#iefix') format('embedded-opentype'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-MediumOblique.woff') format('woff'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-MediumOblique.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-BoldOblique_1.eot');
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-BoldOblique_1.eot?#iefix') format('embedded-opentype'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-BoldOblique_1.woff') format('woff'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-BoldOblique_1.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Medium_1.eot');
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Medium_1.eot?#iefix') format('embedded-opentype'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Medium_1.woff') format('woff'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Medium_1.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Bold_1.eot');
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Bold_1.eot?#iefix') format('embedded-opentype'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Bold_1.woff') format('woff'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Bold_1.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Regular_1.eot');
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Regular_1.eot?#iefix') format('embedded-opentype'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Regular_1.woff') format('woff'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Regular_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-RegularOblique_1.eot');
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-RegularOblique_1.eot?#iefix') format('embedded-opentype'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-RegularOblique_1.woff') format('woff'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-RegularOblique_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-MediumOblique_1.eot');
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-MediumOblique_1.eot?#iefix') format('embedded-opentype'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-MediumOblique_1.woff') format('woff'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-MediumOblique_1.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'MarkW01';
+    src: url('http://dev.qmedia.de/bva-fonts/MarkW01-Medium_1.eot');
+    src: url('http://dev.qmedia.de/bva-fonts/MarkW01-Medium_1.eot?#iefix') format('embedded-opentype'),
+    url('http://dev.qmedia.de/bva-fonts/MarkW01-Medium_1.woff') format('woff'),
+    url('http://dev.qmedia.de/bva-fonts/MarkW01-Medium_1.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-RegularOblique_2.eot');
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-RegularOblique_2.eot?#iefix') format('embedded-opentype'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-RegularOblique_2.woff') format('woff'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-RegularOblique_2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Bold_2.eot');
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Bold_2.eot?#iefix') format('embedded-opentype'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Bold_2.woff') format('woff'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Bold_2.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-MediumOblique_2.eot');
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-MediumOblique_2.eot?#iefix') format('embedded-opentype'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-MediumOblique_2.woff') format('woff'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-MediumOblique_2.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-BoldOblique_2.eot');
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-BoldOblique_2.eot?#iefix') format('embedded-opentype'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-BoldOblique_2.woff') format('woff'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-BoldOblique_2.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Regular_2.eot');
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Regular_2.eot?#iefix') format('embedded-opentype'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Regular_2.woff') format('woff'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Regular_2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Medium_2.eot');
+    src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Medium_2.eot?#iefix') format('embedded-opentype'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Medium_2.woff') format('woff'),
+    url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Medium_2.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MarkW01';
+    src: url('http://dev.qmedia.de/bva-fonts/MarkW01-Medium_2.eot');
+    src: url('http://dev.qmedia.de/bva-fonts/MarkW01-Medium_2.eot?#iefix') format('embedded-opentype'),
+    url('http://dev.qmedia.de/bva-fonts/MarkW01-Medium_2.woff') format('woff'),
+    url('http://dev.qmedia.de/bva-fonts/MarkW01-Medium_2.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UrbanGroteskRegular';
+    src: url('http://dev.qmedia.de/bva-fonts/UrbanGroteskRegular4d43457b59ecb71fa37d3a02cdb91a02.eot');
+    src: url('http://dev.qmedia.de/bva-fonts/UrbanGroteskRegular4d43457b59ecb71fa37d3a02cdb91a02.eot') format('embedded-opentype'),
+    url('http://dev.qmedia.de/bva-fonts/UrbanGroteskRegular4d43457b59ecb71fa37d3a02cdb91a02.woff2') format('woff2'),
+    url('http://dev.qmedia.de/bva-fonts/UrbanGroteskRegular4d43457b59ecb71fa37d3a02cdb91a02.woff') format('woff'),
+    url('http://dev.qmedia.de/bva-fonts/UrbanGroteskRegular4d43457b59ecb71fa37d3a02cdb91a02.ttf') format('truetype'),
+    url('http://dev.qmedia.de/bva-fonts/UrbanGroteskRegular4d43457b59ecb71fa37d3a02cdb91a02.svg#UrbanGroteskRegular4d43457b59ecb71fa37d3a02cdb91a02') format('svg');
+}
+
+
+body {
+    background: #686868;
+}
+
+@media screen and (min-width: 40em) {
+    .p-24 {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+    .p-24-l {
+        padding-left: 1.5rem !important;
+    }
+    .p-24-r {
+        padding-right: 1.5rem !important;
+    }
+    .p-24-t {
+        padding-top: 1.5rem !important;
+    }
+    .p-24-b {
+        padding-bottom: 1.5rem !important;
+    }
+    .p-24-around {
+        padding: 1.5rem !important;
+    }
+}
+
+.logo {
+    padding-top: 1.875rem;
+    padding-bottom: .625rem;
+}
+.logo a img {
+    width: 200px;
+}
+
+.orbit-next,
+.orbit-previous {
+    height: 68px;
+    width: 34px;
+    background-color: rgba(10, 10, 10, 0.2);
+}
+.orbit-previous {
+    border-bottom-right-radius: 68px;
+    border-top-right-radius: 68px;
+}
+.orbit-next {
+    border-bottom-left-radius: 68px;
+    border-top-left-radius: 68px;
+}
+.orbit-previous, .orbit-next {
+    padding: 0;
+}
+
+.orbit-bullets button {
+    width: .5rem;
+    height: 0.5rem;
+}
+.orbit-bullets button.is-active {
+    background-color: #ff0000;
+}
+button.orbit-previous, button.orbit-next {
+    font-size: 2rem;
+    padding-bottom: .3rem;
+    padding-right: .3rem;
+}
+
+.orbit-caption {
+    position: absolute;
+    top: 600px;
+    width: 100%;
+    margin-bottom: 0;
+    padding: 1rem;
+    background-color: rgba(10, 10, 10, 0.5);
+    color: #111;
+}
+
+/* */
+.home-hero-headline {
+    height: 36px;
+    margin: 1rem 0 5rem;
+}
+.home-hero-headline a {
+    color: #111111;
+    font-family: "GT Walsheim Pro", sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+@media screen and (max-width: 39.9375em) {
+    img.teaser-50-50-image {
+        width: 100%;
+    }
+    .teaser-50-50-header {
+        line-height: 25px;
+        /*min-height: 50px;*/
+        margin: 20px 20px 0 20px;
+    }
+
+    .teaser-50-50-header a {
+        color: #111111;
+        font-size: 22px;
+        line-height: 25px;
+        font-family: 'GT Walsheim Pro', sans-serif;
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    .teaser-50-50-excerpt {
+        min-height: 72px;
+        margin: 12px 24px 20px 20px;
+    }
+    .teaser-50-50-excerpt a {
+        color: #111111;
+        font-family: 'UrbanGroteskRegular', sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .teaser-50-50-category {
+        height: 20px;
+        margin: 20px 0 50px 20px;
+    }
+    .teaser-50-50-category a {
+        color: #111111;
+        font-family: "MarkW01", sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (min-width: 40em) {
+    .teaser-50-50 {
+        padding-left: .75rem;
+        padding-right: .75rem;
+    }
+    .teaser-50-50 img {
+    }
+
+    .teaser-50-50-content-wrapper {
+        padding: 28px 0;
+
+    }
+    .teaser-50-50-header {
+        min-height: 72px;
+        /*margin: 28px 0 0;*/
+    }
+    .teaser-50-50-header a {
+        color: #111111;
+        font-size: 38px;
+        line-height: 36px;
+        font-family: 'GT Walsheim Pro', sans-serif;
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    .teaser-50-50-excerpt {
+        min-height: 72px;
+        /*margin: 20px 0 28px;*/
+        margin-top: 20px;
+    }
+    .teaser-50-50-excerpt a {
+        color: #111111;
+        font-family: 'UrbanGroteskRegular', sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .teaser-50-50-category {
+        height: 20px;
+        margin-bottom: 6rem;
+    }
+    .teaser-50-50-category a {
+        color: #111111;
+        font-family: "MarkW01", sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 39.9375em) {
+    .overlay-teaser-50-50 {
+    }
+
+    .overlay-teaser-50-50-content-wrapper {
+        padding: 24px;
+    }
+
+    .overlay-teaser-50-50-wrapper {
+        background-color: #f4f4f4;
+    }
+
+    .overlay-teaser-50-50-wrapper img {
+        width: 100%
+    }
+
+    .overlay-teaser-50-50-content-wrapper {
+        color: #ff0000;
+    }
+
+    .overlay-teaser-50-50-header {
+    }
+
+    .overlay-teaser-50-50-header a {
+        line-height: 32px;
+        color: #ff0000;
+        font-size: 24px;
+        font-family: 'GT Walsheim Pro', sans-serif;
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    .overlay-teaser-50-50-excerpt {
+        margin-top: 20px;
+        height: 74px;
+    }
+
+    .overlay-teaser-50-50-excerpt a {
+        color: #ff0000;
+        font-family: UrbanGroteskRegular, sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .overlay-teaser-50-50-category {
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+
+    .overlay-teaser-50-50-category a {
+        color: #ff0000;
+        height: 20px;
+        width: 154px;
+        font-size: 12px;
+        font-family: "MarkW01", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: 1px;
+        line-height: 20px;
+    }
+
+    .overlay-teaser-50-50-rating {
+        color: #ff0000;
+        font-size: 30px;
+        margin-top: -6px;
+    }
+}
+
+/* ***************************************************************************** */
+/* **************************  /overlay-quote-50-50  *************************** */
+/* ***************************************************************************** */
+@media screen and (max-width: 39.9375em) {
+    .overlay-quote-50-50-wrapper {
+        background-color: #f4f4f4;
+        margin: 3rem 0;
+        /*height: 480px;*/
+    }
+
+    .overlay-quote-50-50-title {
+        color: #ff0000;
+        font-family: "MarkW01", sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        line-height: 20px;
+        /*padding: 24px;*/
+    }
+
+    .overlay-quote-50-50-content-wrapper {
+        padding: 0 24px 24px 24px;
+    }
+
+    .overlay-quote-50-50-title {
+        padding: 24px 24px 0 24px;
+    }
+
+    .overlay-quote-50-50-title a {
+        color: #ff0000;
+        font-family: "MarkW01", sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+
+    .overlay-quote-50-50-content {
+        color: #FF0000;
+        font-family: 'GT Walsheim Pro', sans-serif;
+        font-size: 24px;
+        line-height: 32px;
+        /*height: 270px;*/
+        padding: 20px 6px 20px 6px;
+    }
+
+    .overlay-quote-50-50-image {
+        margin-top: 24px;
+    }
+
+    .overlay-quote-50-50-category {
+        /*padding-bottom: 24px;*/
+    }
+
+    .overlay-quote-50-50-category a {
+        color: #ff0000;
+        font-family: "MarkW01", sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        line-height: 20px;
+    }
+}
+
+/* ***************************************************************************** */
+/* **************************  /overlay-quote-50-50  *************************** */
+/* ***************************************************************************** */
+@media screen and (min-width: 40em) {
+    .overlay-teaser-50-50 {
+        padding-left: .75rem;
+        padding-right: .75rem;
+    }
+    .overlay-teaser-50-50-content-wrapper {
+        padding: 24px;
+    }
+    .overlay-teaser-50-50-wrapper {
+        background-color: #f4f4f4;
+        height: 480px;
+    }
+    .overlay-teaser-50-50-content-wrapper {
+        color: #ff0000;
+    }
+    .overlay-teaser-50-50-header {
+    }
+    .overlay-teaser-50-50-header a {
+        line-height: 36px;
+        color: #ff0000;
+        font-size: 38px;
+        font-family: 'GT Walsheim Pro', sans-serif;
+        font-weight: normal;
+        font-style: normal;
+    }
+    .overlay-teaser-50-50-excerpt {
+        margin-top: 20px;
+        height: 72px;
+    }
+    .overlay-teaser-50-50-excerpt a {
+        color: #ff0000;
+        font-family: UrbanGroteskRegular, sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .overlay-teaser-50-50-category {
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+    .overlay-teaser-50-50-category a {
+        color: #ff0000;
+        height: 20px;
+        width: 154px;
+        font-size: 12px;
+        font-family: "MarkW01", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: 1px;
+        line-height: 20px;
+    }
+    .overlay-teaser-50-50-rating {
+        color: #ff0000;
+        font-size: 30px;
+        margin-top: -6px;
+    }
+
+    /* QUOTE */
+    .overlay-quote-50-50-wrapper {
+        background-color: #f4f4f4;
+        height: 480px;
+    }
+    .overlay-quote-50-50-title {
+        color: #ff0000;
+        font-family: "MarkW01", sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        line-height: 20px;
+        /*padding: 24px;*/
+    }
+    .overlay-quote-50-50-content-wrapper {
+        padding: 0 24px 24px 24px;
+        height: 412px;
+    }
+    .overlay-quote-50-50-title {
+        padding: 24px 24px 0 24px;
+    }
+    .overlay-quote-50-50-title a {
+        color: #ff0000;
+        font-family: "MarkW01", sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+    .overlay-quote-50-50-content{
+        color: #FF0000;
+        font-family: 'GT Walsheim Pro', sans-serif;
+        font-size: 30px;
+        line-height: 36px;
+        height: 270px;
+        padding: 20px 9px 20px 9px;
+    }
+    .overlay-quote-50-50-image {
+        margin-top: 24px;
+    }
+    .overlay-quote-50-50-category {
+        padding-bottom: 24px;
+    }
+    .overlay-quote-50-50-category a {
+        color: #ff0000;
+        font-family: "MarkW01", sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        line-height: 20px;
+    }
+    /* /QUOTE */
+}
+/* ***************************************************************************** */
+/* **************************  /overlay-quote-50-50  *************************** */
+/* ***************************************************************************** */
+
+
+
+/* ***************************************************************************** */
+/* ****************************  overlay-teaser-100  *************************** */
+/* ***************************************************************************** */
+
+
+@media screen and (min-width: 40em) {
+
+}
+
+@media screen and (max-width: 39.9375em) {
+    .overlay-teaser-100-wrapper {
+        margin-top: 2rem;
+        position: relative;
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (min-width: 40em) {
+    .overlay-teaser-100-wrapper {
+        margin-top: 6rem;
+        position: relative;
+        margin-bottom: 10rem;
+    }
+}
+
+.overlay-teaser-100-content-wrapper {
+    height: 100%;
+}
+.overlay-teaser-100-intro {
+    position: absolute;
+    padding: 24px 0 0 24px;
+}
+.overlay-teaser-100-intro a {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "MarkW01", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 15px;
+}
+
+.overlay-teaser-100-headline {
+    position: absolute;
+    bottom: 100px;
+    padding-left: 24px;
+    display: block;
+    max-width: 350px;
+}
+.overlay-teaser-100-headline a {
+    color: #FFFFFF;
+    font-family: "GT Walsheim Pro", sans-serif;
+    font-size: 42px;
+    line-height: 54px;
+}
+.overlay-teaser-100-category {
+    position: absolute;
+    bottom: 24px;
+    padding-left: 24px;
+    display: block;
+    width: 100%;
+}
+.overlay-teaser-100-category a {
+    height: 15px;
+    color: #fff;
+    font-family: "MarkW01", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 15px;
+}
+
+@media screen and (max-width: 39.9375em) {
+    .overlay-teaser-100-image img {
+        width: 100%;
+    }
+}
+/* ***************************************************************************** */
+/* ***************************  /overlay-teaser-100  *************************** */
+/* ***************************************************************************** */
+
+
+
+/* ***************************************************************************** */
+/* *********************************  most read  ******************************* */
+/* ***************************************************************************** */
+@media screen and (max-width: 39.9375em) {
+    .most-read-wrapper {
+        /*margin-bottom: 1rem;*/
+        margin-bottom: 100px;
+    }
+
+    .most-read-item-wrapper {
+        padding-left: 0;
+        clear: both;
+    }
+    .most-read-into {
+        padding-bottom: 2rem;
+    }
+    .most-read-item-title a {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 40em) {
+    .most-read-wrapper {
+        margin-bottom: 5rem;
+    }
+    .most-read-item-wrapper {
+        padding-left: 7rem;
+        clear: both;
+    }
+    .most-read-into {
+        padding-bottom: 4rem;
+    }
+    .most-read-item-title a {
+        font-size: 28px;
+    }
+}
+.most-read-wrapper {
+    height: 580px;
+    background-color: #e8e8e8;
+    padding: 24px;
+}
+.most-read-into {
+    text-transform: uppercase;
+    color: #111111;
+    font-family: "MarkW01", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.most-read-ranking {
+    height: 60px;
+    width: 36px;
+    color: #111111;
+    font-family: "GT Walsheim Pro", sans-serif;
+    font-size: 28px;
+    line-height: 38px;
+    float: left;
+}
+.most-read-content {
+    padding-left: 1rem;
+    float: left;
+    margin-bottom: 30px;
+}
+.most-read-item-category a {
+    text-transform: uppercase;
+    color: #111111;
+    font-family: "MarkW01", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-left: 54px;
+}
+.most-read-item-title a {
+    color: #111111;
+    font-family: "GT Walsheim Pro", sans-serif;
+    line-height: 38px;
+}
+/* ***************************************************************************** */
+/* ******************************** / most read  ******************************* */
+/* ***************************************************************************** */
+
+
+
+
+/* ***************************************************************************** */
+/* ******************************* 480 teaser box ****************************** */
+/* ***************************************************************************** */
+.teaser-480-wrapper {
+    position: relative;
+    /*height: 480px;*/
+    /*width: 480px;*/
+    /*background: #333;*/
+    margin-bottom: 24px;
+}
+.teaser-480-content-wrapper {
+    height: 100%;
+    /*padding: 24px;*/
+}
+.teaser-480-intro {
+    color: #fff;
+    font-family: "MarkW01", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.teaser-480-content-title a {
+    font-family: "GT Walsheim Pro", sans-serif;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.teaser-480-ad-title a {
+    color: #fff;
+    font-family: "GT Walsheim Pro", sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+}
+.teaser-480-category a {
+    color: #fff;
+    font-family: "MarkW01", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+@media screen and (max-width: 39.9375em) {
+    .teaser-480-intro {
+        position: absolute;
+        padding: 20px;
+        top: 0;
+    }
+    .teaser-480-category {
+        position: absolute;
+        bottom: 0;
+        padding: 20px;
+    }
+    .teaser-480-ad-title {
+        position: absolute;
+        top: 70px;
+        left: 20px;
+        max-width: 100%;
+    }
+    .teaser-480-content-title {
+        position: absolute;
+        bottom: 100px;
+        padding: 0 20px;
+        max-width: 100%;
+    }
+    .teaser-480-image img {
+        width: 100%;
+    }
+    .teaser-480-content-title a {
+        font-size: 32px;
+        line-height: 38px;
+    }
+}
+
+@media screen and (min-width: 40em) {
+    .teaser-480-intro {
+        position: absolute;
+        padding: 24px;
+        top: 0;
+    }
+    .teaser-480-ad-title {
+        position: absolute;
+        top: 70px;
+        left: 24px;
+        max-width: 432px;
+    }
+    .teaser-480-content-title {
+        position: absolute;
+        bottom: 100px;
+        padding: 0 24px;
+        max-width: 432px;
+    }
+    .teaser-480-content-title a {
+        font-size: 42px;
+        line-height: 54px;
+    }
+    .teaser-480-category {
+        position: absolute;
+        bottom: 0;
+        padding: 24px;
+    }
+}
+
+/* ***************************************************************************** */
+/* ****************************** /480 teaser box ****************************** */
+/* ***************************************************************************** */
+
+
+
+/* ***************************************************************************** */
+/* ************************* teaser-100-grey-headline ************************** */
+/* ***************************************************************************** */
+.teaser-100-grey-headline {
+    background-color: #f4f4f4;
+    height: 100px;
+}
+.teaser-100-grey-headline a {
+    height: 20px;
+    text-transform: uppercase;
+    color: #111111;
+    font-family: "MarkW01", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 100px;
+    padding-left: 24px;
+}
+.teaser-100-grey-intro {
+    height: 16px;
+    text-transform: uppercase;
+    color: #111111;
+    font-family: "MarkW01", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.teaser-100-grey-title {
+    margin-top: 12px;
+    margin-bottom: 16px;
+}
+@media screen and (max-width: 39.9375em) {
+    .teaser-100-grey-content-wrapper {
+        padding: 20px 14px 100px 14px;
+    }
+    .teaser-100-grey-title a {
+        font-family: "GT Walsheim Pro", sans-serif;
+        color: #111111;
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
+/* Medium and up */
+@media screen and (min-width: 40em) {
+    .teaser-100-grey-content-wrapper {
+        background-color: #f4f4f4;
+        padding: 24px;
+    }
+    .teaser-100-grey-title a {
+        height: 36px;
+        width: 945px;
+        color: #111111;
+        font-family: "GT Walsheim Pro", sans-serif;
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .teaser-100-grey-excerpt {
+        margin-bottom: 3rem;
+    }
+    .teaser-100-grey-excerpt a {
+        color: #111111;
+        font-family: UrbanGroteskRegular, sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+/* ***************************************************************************** */
+/* ************************* /teaser-100-grey-headline ************************* */
+/* ***************************************************************************** */
+
+
+/* ***************************************************************************** */
+/* ***************************** default-100-teaser **************************** */
+/* ***************************************************************************** */
+.default-100-teaser-intro {
+    height: 16px;
+    text-transform: uppercase;
+    color: #111111;
+    font-family: "MarkW01", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.default-100-teaser-title {
+    margin-top: 12px;
+    margin-bottom: 16px;
+}
+@media screen and (max-width: 39.9375em) {
+    .default-100-teaser-content-wrapper {
+        padding: 20px 14px 100px 14px;
+    }
+    .default-100-teaser-image img {
+        width: 100%;
+    }
+    .default-100-teaser-title a {
+        font-family: "GT Walsheim Pro", sans-serif;
+        color: #111111;
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
+/* Medium and up */
+@media screen and (min-width: 40em) {
+    .default-100-teaser-title a {
+        height: 36px;
+        width: 945px;
+        color: #111111;
+        font-family: "GT Walsheim Pro", sans-serif;
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .default-100-teaser-content-wrapper {
+        padding-left: .75rem;
+    }
+    .default-100-teaser-excerpt {
+    }
+    .default-100-teaser-excerpt a {
+        color: #111111;
+        font-family: UrbanGroteskRegular, sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+/* ***************************************************************************** */
+/* **************************** /default-100-teaser **************************** */
+/* ***************************************************************************** */
