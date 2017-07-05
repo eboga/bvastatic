@@ -1055,3 +1055,184 @@ button.orbit-previous, button.orbit-next {
 /* ***************************************************************************** */
 /* **************************** /default-100-teaser **************************** */
 /* ***************************************************************************** */
+
+
+
+/* ***************************************************************************** */
+/* ********************************* FOOTER ************************************ */
+/* ***************************************************************************** */
+.footer-wrapper {
+    margin: 0 auto;
+    max-width: 64.5em;
+    background: #111;
+}
+.magazine {
+    min-height: 900px;
+    max-width: 64.5rem;
+    /*background: #111111;*/
+}
+.magazine-header {
+    text-transform: uppercase;
+    padding:  40px 40px 40px 24px;
+    color: #9B9B9B;
+    font-family: "MarkW01", sans-serif;
+    font-size: 18px;
+    height: 100px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.magazine-cta {
+    color: #9B9B9B;
+    font-family: "GT Walsheim Pro", sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    padding: 24px;
+}
+.footer {
+    min-height: 300px;
+    margin-bottom: 10rem;
+    max-width: 64.5rem;
+    /*background: #111111;*/
+}
+.single-magazine-wrapper {
+    margin-top: 84px;
+    text-align: center;
+}
+.magazine-wrapper {
+    padding: 100px;
+}
+.single-magazine-publish-date {
+    padding: 36px 0 24px;
+    height: 15px;
+    color: #FFFFFF;
+    font-family: "MarkW01";
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 15px;
+    text-align: center;
+}
+.single-magazine-topics ul {
+    list-style-type: none;
+    margin-left: .5rem;
+}
+.single-magazine-topics ul li {
+    color: #fff;
+    font-family: "GT Walsheim Pro", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+    padding-left: -1rem;
+}
+.single-magazine-topics ul li:before {
+    content: "»  ";
+    margin-right: 1rem;
+}
+
+.follow-us-footer {
+    /*background: #111;*/
+    color: #9B9B9B;
+    font-family: "GT Walsheim Pro", sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    padding: 24px;
+    border-top: 1px solid #4a4a4a;
+    border-bottom: 1px solid #4a4a4a;
+}
+
+.footer-menu {
+    /*background: #111;*/
+    padding: 24px;
+}
+.footer-menu ul li {
+    margin-bottom: 20px;
+}
+.footer-menu ul li a{
+    color: #9B9B9B;
+    font-family: "MarkW01", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 39.9375em) {
+    .footer-menu ul li {
+        text-align: center;}
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {}
+
+@media screen and (max-width: 39.9375em) {
+    .footer-logo {
+        /*background: #111;*/
+        height: 400px;
+    }
+
+    .footer-logo .logo {
+        text-align: center;
+        padding-top: 10px;
+        color: #9B9B9B;
+        font-family: "MarkW01", sans-serif;
+        font-size: 26px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+    .footer-logo {
+        /*background: #111;*/
+        height: 400px;
+    }
+    .footer-logo .logo {
+        text-align: center;
+        padding-top: 200px;
+        color: #9B9B9B;
+        font-family: "MarkW01", sans-serif;
+        font-size: 26px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 39.9375em) {
+    .footer-bottom-links ul li {
+        margin: 0 1rem;
+    }
+}
+
+@media screen and (min-width: 40em) {
+    .footer-bottom-links ul li {
+        margin: 0 2rem;
+    }
+}
+
+.footer-bottom-links {
+    text-align: center;
+}
+.footer-bottom-links-copyright {
+    white-space: nowrap;
+}
+.footer-bottom-links ul {
+    list-style-type: none;
+}
+.footer-bottom-links ul li {
+    display: inline;
+}
+.footer-bottom-links ul li a {
+    color: #9B9B9B;
+    font-family: "MarkW01", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+/* ***************************************************************************** */
+/* ********************************* /FOOTER *********************************** */
+/* ***************************************************************************** */
