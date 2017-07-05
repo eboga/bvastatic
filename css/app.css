@@ -1069,7 +1069,6 @@ button.orbit-previous, button.orbit-next {
 .magazine {
     min-height: 900px;
     max-width: 64.5rem;
-    /*background: #111111;*/
 }
 .magazine-header {
     text-transform: uppercase;
@@ -1093,7 +1092,6 @@ button.orbit-previous, button.orbit-next {
     min-height: 300px;
     margin-bottom: 10rem;
     max-width: 64.5rem;
-    /*background: #111111;*/
 }
 .single-magazine-wrapper {
     margin-top: 84px;
@@ -1106,7 +1104,7 @@ button.orbit-previous, button.orbit-next {
     padding: 36px 0 24px;
     height: 15px;
     color: #FFFFFF;
-    font-family: "MarkW01";
+    font-family: "MarkW01", sans-serif;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 1px;
@@ -1131,7 +1129,6 @@ button.orbit-previous, button.orbit-next {
 }
 
 .follow-us-footer {
-    /*background: #111;*/
     color: #9B9B9B;
     font-family: "GT Walsheim Pro", sans-serif;
     font-size: 30px;
@@ -1142,7 +1139,6 @@ button.orbit-previous, button.orbit-next {
 }
 
 .footer-menu {
-    /*background: #111;*/
     padding: 24px;
 }
 .footer-menu ul li {
@@ -1169,10 +1165,8 @@ button.orbit-previous, button.orbit-next {
 
 @media screen and (max-width: 39.9375em) {
     .footer-logo {
-        /*background: #111;*/
         height: 400px;
     }
-
     .footer-logo .logo {
         text-align: center;
         padding-top: 10px;
@@ -1187,7 +1181,6 @@ button.orbit-previous, button.orbit-next {
 /* Medium and up */
 @media screen and (min-width: 40em) {
     .footer-logo {
-        /*background: #111;*/
         height: 400px;
     }
     .footer-logo .logo {
