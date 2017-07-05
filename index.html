@@ -826,8 +826,20 @@
         margin-bottom: 20px;
       }
     </style>
+
+    <style>
+      @media screen and (max-width: 39.9375em) {
+        .footer-menu ul li {
+          text-align: center;}
+      }
+
+
+      /* Medium and up */
+      @media screen and (min-width: 40em) {}
+
+    </style>
       <div class="row footer-menu">
-        <div class="medium-3 columns">
+        <div class="medium-3 small-12 columns">
           <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Race</a></li>
@@ -836,7 +848,7 @@
           </ul>
         </div>
 
-        <div class="medium-3 columns">
+        <div class="medium-3 small-12 columns">
           <ul>
             <li><a href="#">Videos</a></li>
             <li><a href="#">Magazin</a></li>
@@ -845,7 +857,7 @@
           </ul>
         </div>
 
-        <div class="medium-3 columns">
+        <div class="medium-3 columns show-for-medium">
           <ul>
             <li><a href="#">Videos</a></li>
             <li><a href="#">Magazin</a></li>
@@ -854,7 +866,7 @@
           </ul>
         </div>
 
-        <div class="medium-3 columns">
+        <div class="medium-3 columns show-for-medium">
           <ul>
             <li><a href="#">Videos</a></li>
             <li><a href="#">Magazin</a></li>
@@ -867,20 +879,39 @@
 
 
     <style>
-      .footer-logo {
-        background: #111;
-        height: 400px;
-      }
-      .footer-logo .logo {
-        text-align: center;
-        padding-top: 200px;
-        color: #9B9B9B;
-        font-family: "MarkW01", sans-serif;
-        font-size: 26px;
-        text-transform: uppercase;
-        font-weight: bold;
 
+      @media screen and (max-width: 39.9375em) {
+        .footer-logo {
+          background: #111;
+          height: 400px;
+        }
+        .footer-logo .logo {
+          text-align: center;
+          padding-top: 10px;
+          color: #9B9B9B;
+          font-family: "MarkW01", sans-serif;
+          font-size: 26px;
+          text-transform: uppercase;
+          font-weight: bold;
+        }
+
+      /* Medium and up */
+      @media screen and (min-width: 40em) {
+        .footer-logo {
+          background: #111;
+          height: 400px;
+        }
+        .footer-logo .logo {
+          text-align: center;
+          padding-top: 200px;
+          color: #9B9B9B;
+          font-family: "MarkW01", sans-serif;
+          font-size: 26px;
+          text-transform: uppercase;
+          font-weight: bold;
+        }
       }
+
     </style>
     <div class="row footer-logo">
       <div class="medium-24 columns">
