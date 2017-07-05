@@ -1126,6 +1126,27 @@ button.orbit-previous, button.orbit-next {
 /* ***************************************************************************** */
 /* ********************************* FOOTER ************************************ */
 /* ***************************************************************************** */
+
+@media screen and (max-width: 39.9375em) {
+    .magazine-wrapper {
+        padding: 50px;
+    }
+    .single-magazine-topics {
+        text-align: center;
+    }
+    .single-magazine-topics ul {
+        /*text-align: left;*/
+    }
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+    .magazine-wrapper {
+        padding: 100px;
+    }
+}
+
+
 .footer-wrapper {
     margin: 0 auto;
     max-width: 64.5em;
@@ -1161,9 +1182,6 @@ button.orbit-previous, button.orbit-next {
 .single-magazine-wrapper {
     margin-top: 84px;
     text-align: center;
-}
-.magazine-wrapper {
-    padding: 100px;
 }
 .single-magazine-publish-date {
     padding: 36px 0 24px;
