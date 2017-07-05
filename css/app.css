@@ -315,7 +315,7 @@ button.orbit-previous, button.orbit-next {
     margin: 1rem 0 5rem;
 }
 .home-hero-headline a {
-    color: #111111;
+    color: #111;
     font-family: "GT Walsheim Pro", sans-serif;
     font-size: 30px;
     line-height: 36px;
@@ -332,7 +332,7 @@ button.orbit-previous, button.orbit-next {
     }
 
     .teaser-50-50-header a {
-        color: #111111;
+        color: #111;
         font-size: 22px;
         line-height: 25px;
         font-family: 'GT Walsheim Pro', sans-serif;
@@ -345,7 +345,7 @@ button.orbit-previous, button.orbit-next {
         margin: 12px 24px 20px 20px;
     }
     .teaser-50-50-excerpt a {
-        color: #111111;
+        color: #111;
         font-family: 'UrbanGroteskRegular', sans-serif;
         font-size: 16px;
         line-height: 24px;
@@ -356,7 +356,7 @@ button.orbit-previous, button.orbit-next {
         margin: 20px 0 50px 20px;
     }
     .teaser-50-50-category a {
-        color: #111111;
+        color: #111;
         font-family: "MarkW01", sans-serif;
         font-size: 12px;
         font-weight: 500;
@@ -382,7 +382,7 @@ button.orbit-previous, button.orbit-next {
         /*margin: 28px 0 0;*/
     }
     .teaser-50-50-header a {
-        color: #111111;
+        color: #111;
         font-size: 38px;
         line-height: 36px;
         font-family: 'GT Walsheim Pro', sans-serif;
@@ -396,7 +396,7 @@ button.orbit-previous, button.orbit-next {
         margin-top: 20px;
     }
     .teaser-50-50-excerpt a {
-        color: #111111;
+        color: #111;
         font-family: 'UrbanGroteskRegular', sans-serif;
         font-size: 16px;
         line-height: 24px;
@@ -407,7 +407,7 @@ button.orbit-previous, button.orbit-next {
         margin-bottom: 6rem;
     }
     .teaser-50-50-category a {
-        color: #111111;
+        color: #111;
         font-family: "MarkW01", sans-serif;
         font-size: 12px;
         font-weight: 500;
@@ -789,7 +789,7 @@ button.orbit-previous, button.orbit-next {
 }
 .most-read-into {
     text-transform: uppercase;
-    color: #111111;
+    color: #111;
     font-family: "MarkW01", sans-serif;
     font-size: 12px;
     font-weight: 500;
@@ -798,7 +798,7 @@ button.orbit-previous, button.orbit-next {
 .most-read-ranking {
     height: 80px;
     width: 36px;
-    color: #111111;
+    color: #111;
     font-family: "GT Walsheim Pro", sans-serif;
     font-size: 28px;
     line-height: 38px;
@@ -811,7 +811,7 @@ button.orbit-previous, button.orbit-next {
 }
 .most-read-item-category a {
     text-transform: uppercase;
-    color: #111111;
+    color: #111;
     font-family: "MarkW01", sans-serif;
     font-size: 12px;
     font-weight: 500;
@@ -819,7 +819,7 @@ button.orbit-previous, button.orbit-next {
     padding-left: 54px;
 }
 .most-read-item-title a {
-    color: #111111;
+    color: #111;
     font-family: "GT Walsheim Pro", sans-serif;
     line-height: 38px;
 }
@@ -950,7 +950,7 @@ button.orbit-previous, button.orbit-next {
 .teaser-100-grey-headline a {
     height: 20px;
     text-transform: uppercase;
-    color: #111111;
+    color: #111;
     font-family: "MarkW01", sans-serif;
     font-size: 18px;
     font-weight: 500;
@@ -961,7 +961,7 @@ button.orbit-previous, button.orbit-next {
 .teaser-100-grey-intro {
     height: 16px;
     text-transform: uppercase;
-    color: #111111;
+    color: #111;
     font-family: "MarkW01", sans-serif;
     font-size: 12px;
     font-weight: 500;
@@ -977,7 +977,7 @@ button.orbit-previous, button.orbit-next {
     }
     .teaser-100-grey-title a {
         font-family: "GT Walsheim Pro", sans-serif;
-        color: #111111;
+        color: #111;
         font-size: 24px;
         line-height: 32px;
     }
@@ -991,7 +991,7 @@ button.orbit-previous, button.orbit-next {
     .teaser-100-grey-title a {
         height: 36px;
         width: 945px;
-        color: #111111;
+        color: #111;
         font-family: "GT Walsheim Pro", sans-serif;
         font-size: 30px;
         line-height: 36px;
@@ -1000,7 +1000,7 @@ button.orbit-previous, button.orbit-next {
         margin-bottom: 3rem;
     }
     .teaser-100-grey-excerpt a {
-        color: #111111;
+        color: #111;
         font-family: UrbanGroteskRegular, sans-serif;
         font-size: 16px;
         line-height: 24px;
@@ -1017,7 +1017,7 @@ button.orbit-previous, button.orbit-next {
 .default-100-teaser-intro {
     height: 16px;
     text-transform: uppercase;
-    color: #111111;
+    color: #111;
     font-family: "MarkW01", sans-serif;
     font-size: 12px;
     font-weight: 500;
@@ -1036,7 +1036,7 @@ button.orbit-previous, button.orbit-next {
     }
     .default-100-teaser-title a {
         font-family: "GT Walsheim Pro", sans-serif;
-        color: #111111;
+        color: #111;
         font-size: 24px;
         line-height: 32px;
     }
@@ -1046,7 +1046,7 @@ button.orbit-previous, button.orbit-next {
     .default-100-teaser-title a {
         height: 36px;
         width: 945px;
-        color: #111111;
+        color: #111;
         font-family: "GT Walsheim Pro", sans-serif;
         font-size: 30px;
         line-height: 36px;
@@ -1057,7 +1057,7 @@ button.orbit-previous, button.orbit-next {
     .default-100-teaser-excerpt {
     }
     .default-100-teaser-excerpt a {
-        color: #111111;
+        color: #111;
         font-family: UrbanGroteskRegular, sans-serif;
         font-size: 16px;
         line-height: 24px;
