@@ -13,9 +13,19 @@
 /* Large only */
 @media screen and (min-width: 64em) and (max-width: 74.9375em) {}
 
-.article-hero {
-    padding-bottom: 3rem;
+
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+    .article-hero {
+        padding-bottom: 3rem;
+    }
+
 }
+
 .editorial-hero-content-headline h2 {
     color: #fff;
     font-family: "GT Walsheim Pro", sans-serif;
@@ -106,7 +116,7 @@
         font-size: 24px;
         font-weight: 500;
         line-height: 32px;
-        padding: 0 20px;
+        padding: 0 20px 0 20px;
     }
 }
 
@@ -122,8 +132,6 @@
         text-align: center;
     }
 }
-
-
 
 .editorial h1 {
     padding: 0 12rem;
@@ -147,6 +155,21 @@
     line-height: 20px;
     text-align: center;
     padding: 3rem 0;
+}
+
+@media screen and (max-width: 39.9375em) {
+    .article-share-small-wrapper {
+        padding: 80px 24px;
+    }
+    .article-share-small {
+        color: #111111;
+        font-family: "MarkW01", sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        line-height: 20px;
+    }
+
 }
 
 /* ***************************************************************************** */
