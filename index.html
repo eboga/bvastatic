@@ -24,7 +24,7 @@
         <div class="row" style="height: 110px; background-color: #FF0000;">
           <div class="medium-24 p-24 columns">
             <div class="logo"><a href="/"><img alt="self-Logo" src="img/RR_Wortmarke.svg"></a></div>
-            <div>MENU ITEM - MENU ITEM 2</div>
+            <div class="hide-for-small-only">MENU ITEM - MENU ITEM 2</div>
           </div>
         </div>
         <!-- /main navigation row -->
@@ -42,7 +42,7 @@
           /* Medium and up */
           @media screen and (min-width: 40em) {
             .orbit-image {
-              height: 585px;
+              height: 400px;
               width: 100%;
             }
           }
@@ -59,22 +59,22 @@
                 <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#155;</button>
                 <!--&#9654;&#xFE0E;-->
                 <div class="is-active orbit-slide">
-                  <img class="orbit-image" data-interchange="[http://via.placeholder.com/375x545/888/000/?text=Slide-1, small], [http://via.placeholder.com/1032x580/888/000/?text=Slide-1, medium]" alt="ichbineinalttext">
+                  <img class="orbit-image" data-interchange="[http://via.placeholder.com/375x545/888/000/?text=Slide-1, small], [http://via.placeholder.com/1032x400/888/000/?text=Slide-1, medium]" alt="ichbineinalttext">
                   <!--<img class="orbit-image" src="http://via.placeholder.com/1032x580/888/000/" alt="Space">-->
                   <figcaption class="orbit-caption">Encapsulating 1</figcaption>
                 </div>
                 <div class="orbit-slide">
-                  <img class="orbit-image" data-interchange="[http://via.placeholder.com/375x545/333/fff/?text=Slide-2, small], [http://via.placeholder.com/1032x580/333/fff/?text=Slide-2, medium]" alt="ichbineinalttext">
+                  <img class="orbit-image" data-interchange="[http://via.placeholder.com/375x545/333/fff/?text=Slide-2, small], [http://via.placeholder.com/1032x400/333/fff/?text=Slide-2, medium]" alt="ichbineinalttext">
                   <!--<img class="orbit-image" src="http://via.placeholder.com/1032x580/333/fff/" alt="Space">-->
                   <figcaption class="orbit-caption">Encapsulating 2</figcaption>
                 </div>
                 <div class="orbit-slide">
-                  <img class="orbit-image" data-interchange="[http://via.placeholder.com/375x545/888/000/?text=Slide-3, small], [http://via.placeholder.com/1032x580/888/000/?text=Slide-3, medium]" alt="ichbineinalttext">
+                  <img class="orbit-image" data-interchange="[http://via.placeholder.com/375x545/888/000/?text=Slide-3, small], [http://via.placeholder.com/1032x400/888/000/?text=Slide-3, medium]" alt="ichbineinalttext">
                   <!--<img class="orbit-image" src="http://via.placeholder.com/1032x580/888/000/" alt="Space">-->
                   <figcaption class="orbit-caption">Encapsulating 3</figcaption>
                 </div>
                 <div class="orbit-slide">
-                  <img class="orbit-image" data-interchange="[http://via.placeholder.com/375x545/333/fff/?text=Slide-4, small], [http://via.placeholder.com/1032x580/333/fff/?text=Slide-4, medium]" alt="ichbineinalttext">
+                  <img class="orbit-image" data-interchange="[http://via.placeholder.com/375x545/333/fff/?text=Slide-4, small], [http://via.placeholder.com/1032x400/333/fff/?text=Slide-4, medium]" alt="ichbineinalttext">
                   <!--<img class="orbit-image" src="http://via.placeholder.com/1032x580/333/fff/" alt="Space">-->
                   <figcaption class="orbit-caption">Encapsulating 4</figcaption>
                 </div>
@@ -345,7 +345,7 @@
 
 
         <!-- homepage full width teaser test & tech -->
-        <div class="row collapse p-24-b">
+        <div class="row collapse p-24-b newcategory">
           <div class="medium-12 columns">
             <div class="teaser-100-grey-headline">
               <a class="align-self-middle" href="#">123 Test & Technik</a>
@@ -357,7 +357,7 @@
             <img class="teaser-50-50-image" data-interchange="[http://via.placeholder.com/375x250/888/000/, small], [http://via.placeholder.com/1032x400/888/000/, medium]" alt="ichbineinalttext">
             <!--</div>-->
           </div>
-          <div class="medium-12 columns">
+          <div class="medium-12 columns end">
             <div class="teaser-100-grey-content-wrapper">
               <div class="teaser-100-grey-intro">
                 STILSER JoCh
@@ -366,11 +366,57 @@
                 <a href="#">Drei Themen-Highlights im Wechsel</a>
               </div>
               <div class="teaser-100-grey-excerpt show-for-medium">
-                <a href="#">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</a>
+                <p><a href="#">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</a></p>
               </div>
             </div>
           </div>
         </div>
+
+
+
+        <!-- default 100 teaser  -->
+        <div class="row p-24-around collapse">
+          <div class="medium-6 columns">
+            <img class="default-100-teaser-image" data-interchange="[http://via.placeholder.com/375x250/888/000/, small], [http://via.placeholder.com/480x270/888/000/, medium]" alt="ichbineinalttext">
+          </div>
+
+          <div class="medium-6 columns">
+            <div class="default-100-teaser-content-wrapper">
+              <div class="default-100-teaser-intro">
+                STILSER JoCh
+              </div>
+              <div class="default-100-teaser-title">
+                <a href="#">Default Teaser Highlights im Wechsel</a>
+              </div>
+              <div class="default-100-teaser-excerpt show-for-medium">
+                <a href="#">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /default 100 teaser  -->
+
+        <!-- default 100 teaser  -->
+        <div class="row p-24-around collapse">
+          <div class="medium-6 columns">
+            <img class="default-100-teaser-image" data-interchange="[http://via.placeholder.com/375x250/888/000/, small], [http://via.placeholder.com/480x270/888/000/, medium]" alt="ichbineinalttext">
+          </div>
+
+          <div class="medium-6 columns">
+            <div class="default-100-teaser-content-wrapper">
+              <div class="default-100-teaser-intro">
+                STILSER JoCh
+              </div>
+              <div class="default-100-teaser-title">
+                <a href="#">Default Teaser Highlights im Wechsel</a>
+              </div>
+              <div class="default-100-teaser-excerpt show-for-medium">
+                <a href="#">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /default 100 teaser  -->
 
 
 
@@ -432,52 +478,8 @@
         </div>
         <!-- /homepage full width most read 580px height-->
 
-        <!-- default 100 teaser  -->
-        <div class="row p-24-around collapse">
-          <div class="medium-6 columns">
-            <img class="default-100-teaser-image" data-interchange="[http://via.placeholder.com/375x250/888/000/, small], [http://via.placeholder.com/480x270/888/000/, medium]" alt="ichbineinalttext">
-          </div>
-
-          <div class="medium-6 columns">
-            <div class="default-100-teaser-content-wrapper">
-              <div class="default-100-teaser-intro">
-                STILSER JoCh
-              </div>
-              <div class="default-100-teaser-title">
-                <a href="#">Default Teaser Highlights im Wechsel</a>
-              </div>
-              <div class="default-100-teaser-excerpt show-for-medium">
-                <a href="#">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- /default 100 teaser  -->
-
-        <!-- default 100 teaser  -->
-        <div class="row p-24-around collapse">
-          <div class="medium-6 columns">
-            <img class="default-100-teaser-image" data-interchange="[http://via.placeholder.com/375x250/888/000/, small], [http://via.placeholder.com/480x270/888/000/, medium]" alt="ichbineinalttext">
-          </div>
-
-          <div class="medium-6 columns">
-            <div class="default-100-teaser-content-wrapper">
-              <div class="default-100-teaser-intro">
-                STILSER JoCh
-              </div>
-              <div class="default-100-teaser-title">
-                <a href="#">Default Teaser Highlights im Wechsel</a>
-              </div>
-              <div class="default-100-teaser-excerpt show-for-medium">
-                <a href="#">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- /default 100 teaser  -->
-
         <!-- homepage full width teaser test & tech -->
-        <div class="row collapse p-24-b">
+        <div class="row collapse p-24-b newcategory">
           <!--<div class="teaser-100-grey">-->
           <div class="medium-12 columns">
             <div class="teaser-100-grey-headline">
@@ -505,6 +507,51 @@
           </div>
           <!--</div>-->
         </div>
+
+
+        <!-- default 100 teaser  -->
+        <div class="row p-24-around collapse">
+          <div class="medium-6 columns">
+            <img class="default-100-teaser-image" data-interchange="[http://via.placeholder.com/375x250/888/000/, small], [http://via.placeholder.com/480x270/888/000/, medium]" alt="ichbineinalttext">
+          </div>
+
+          <div class="medium-6 columns">
+            <div class="default-100-teaser-content-wrapper">
+              <div class="default-100-teaser-intro">
+                STILSER JoCh
+              </div>
+              <div class="default-100-teaser-title">
+                <a href="#">Default Teaser Highlights im Wechsel</a>
+              </div>
+              <div class="default-100-teaser-excerpt show-for-medium">
+                <a href="#">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /default 100 teaser  -->
+
+        <!-- default 100 teaser  -->
+        <div class="row p-24-around collapse">
+          <div class="medium-6 columns">
+            <img class="default-100-teaser-image" data-interchange="[http://via.placeholder.com/375x250/888/000/, small], [http://via.placeholder.com/480x270/888/000/, medium]" alt="ichbineinalttext">
+          </div>
+
+          <div class="medium-6 columns">
+            <div class="default-100-teaser-content-wrapper">
+              <div class="default-100-teaser-intro">
+                STILSER JoCh
+              </div>
+              <div class="default-100-teaser-title">
+                <a href="#">Default Teaser Highlights im Wechsel</a>
+              </div>
+              <div class="default-100-teaser-excerpt show-for-medium">
+                <a href="#">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /default 100 teaser  -->
 
         <!-- test slider -->
           <div class="product-test-slider-wrapper hide-for-small-only">
@@ -734,7 +781,9 @@
 
         <div class="row footer-logo">
           <div class="medium-24 columns">
-            <div class="logo">RENNRAD LOGO<br>WELCHES GERADE NOCH FEHLT :)</div>
+            <div class="medium-24 p-24 columns">
+              <div class="logo"><a href="/"><img alt="self-Logo" src="img/RR_Wortmarke-dunkel.svg"></a></div>
+            </div>
           </div>
         </div>
 

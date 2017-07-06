@@ -13,6 +13,12 @@
 /* Large only */
 @media screen and (min-width: 64em) and (max-width: 74.9375em) {}
 
+
+/*content: '←';*/
+/*content: '→';*/
+/*content: '•';*/
+
+
 @font-face {
     font-family: 'GT Walsheim Pro';
     src: url('http://dev.qmedia.de/bva-fonts/GTWalsheimPro-Medium.eot');
@@ -372,10 +378,8 @@ button.orbit-previous, button.orbit-next {
     }
     .teaser-50-50 img {
     }
-
     .teaser-50-50-content-wrapper {
         padding: 28px 0;
-
     }
     .teaser-50-50-header {
         min-height: 72px;
@@ -383,13 +387,12 @@ button.orbit-previous, button.orbit-next {
     }
     .teaser-50-50-header a {
         color: #111;
-        font-size: 38px;
+        font-size: 30px;
         line-height: 36px;
         font-family: 'GT Walsheim Pro', sans-serif;
         font-weight: normal;
         font-style: normal;
     }
-
     .teaser-50-50-excerpt {
         min-height: 72px;
         /*margin: 20px 0 28px;*/
@@ -762,8 +765,15 @@ button.orbit-previous, button.orbit-next {
 }
 
 @media screen and (min-width: 40em) {
+    .newcategory {
+        margin-top: 6rem;
+    }
+}
+
+
+@media screen and (min-width: 40em) {
     .most-read-wrapper {
-        margin-bottom: 5rem;
+        /*margin-bottom: 5rem;*/
     }
     .most-read-item-wrapper {
         padding-left: 7rem;
@@ -986,7 +996,8 @@ button.orbit-previous, button.orbit-next {
         line-height: 36px;
     }
     .teaser-100-grey-excerpt {
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
+        width: 70%;
     }
     .teaser-100-grey-excerpt a {
         color: #111;
