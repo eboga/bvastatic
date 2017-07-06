@@ -1,0 +1,254 @@
+/* Small only */
+@media screen and (max-width: 39.9375em) {}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* Large and up */
+@media screen and (min-width: 64em) {}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
+
+.article-hero {
+    padding-bottom: 3rem;
+}
+.editorial-hero-content-headline h2 {
+    color: #fff;
+    font-family: "GT Walsheim Pro", sans-serif;
+    letter-spacing: 1px;
+}
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+    .editorial-hero-content-headline h2 {
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 40px;
+    }
+    .editorial-hero-image img {
+        width: 100%;
+    }
+    .editorial-hero-content-wrapper {
+        padding: 2010px 10px 20px 10px;
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        display: block;
+    }
+    .editorial-hero-content-intro {
+        margin-bottom: 10px;
+    }
+}
+/* Medium and up */
+@media screen and (min-width: 40em) {
+    .editorial-hero-content-wrapper {
+        width: 100%;
+        text-align: center;
+    }
+    .editorial-hero-content-headline h2 {
+        padding: 0 12rem;
+        font-size: 45px;
+        line-height: 55px;
+        text-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+    }
+    .editorial-hero-content-wrapper {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        transform: translateY(-50%);
+        display: block;
+    }
+}
+
+.article-hero {
+    position: relative;
+}
+.editorial-hero-wrapper {
+    height: 100%;
+}
+
+.editorial-hero-content-intro {
+    text-transform: uppercase;
+    height: 1rem;
+    color: #fff;
+    font-family: "MarkW01", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ***************************************************************************** */
+/* *****************************  article header  ****************************** */
+/* ***************************************************************************** */
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+    .article-excerpt  {
+        color: #111111;
+        font-family: "GT Walsheim Pro", sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 32px;
+        padding: 0 20px;
+    }
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+    .article-excerpt {
+        padding: 0 12rem;
+        color: #111111;
+        font-family: "GT Walsheim Pro", sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36px;
+        text-align: center;
+    }
+}
+
+
+
+.editorial h1 {
+    padding: 0 12rem;
+    height: 20px;
+    font-family: "MarkW01", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.article-info {
+    color: #111111;
+    font-family: "MarkW01", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+/* ***************************************************************************** */
+/* ***************************** /article header ******************************* */
+/* ***************************************************************************** */
+
+
+/* ***************************************************************************** */
+/* ******************************  article body  ******************************* */
+/* ***************************************************************************** */
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+    .editorial p {
+        color: #111111;
+        font-family: UrbanGroteskRegular, sans-serif;
+        font-size: 19px;
+        line-height: 28px;
+        padding: 0 20px;
+    }
+
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+    .editorial p {
+        color: #111111;
+        font-family: UrbanGroteskRegular, sans-serif;
+        font-size: 20px;
+        line-height: 30px;
+        padding: 0 12rem;
+    }
+}
+
+.editorial p.red {
+    color: #ff0000;
+}
+.in-article-ad {
+    padding: 3rem 0;
+}
+/* ***************************************************************************** */
+/* ****************************** /article body  ******************************* */
+/* ***************************************************************************** */
+
+
+
+
+
+
+
+/* ***************************************************************************** */
+/* ****************************  in article quote  ***************************** */
+/* ***************************************************************************** */
+.in-article-quote-name {
+    color: #111111;
+    font-family: "MarkW01",sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+    .in-article-quote-wrapper {
+        text-align: center;
+        padding: 6rem 20px;
+    }
+
+    .in-aricle-quote {
+        color: #111111;
+        font-family: "GT Walsheim Pro", sans-serif;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 36px;
+        text-align: center;
+    }
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+    .in-article-quote-wrapper {
+        text-align: center;
+        padding: 6rem 12rem;
+    }
+    .in-aricle-quote {
+        color: #111111;
+        font-family: "GT Walsheim Pro", sans-serif;
+        font-size: 36px;
+        line-height: 46px;
+        padding-bottom: 24px;
+    }
+    .in-article-quote-name {
+        color: #111111;
+        font-family: "MarkW01",sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        line-height: 20px;
+    }
+}
+
+
+/* ***************************************************************************** */
+/* **************************** /in article quote  ***************************** */
+/* ***************************************************************************** */
